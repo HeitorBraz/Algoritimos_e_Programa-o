@@ -1,0 +1,59 @@
+algoritmo mediaNotasAluno;
+// Síntese
+//  Objetivo: Calcular a media de um aluno
+//  Entrada : Notas
+//  Saída   : Media das notas
+
+
+principal
+    // Declarações
+
+    real nota1, nota2, notafinal, nota1peso, nota2peso;
+
+    // Instruções
+
+    // Mostrar mensagem de boas vindas e pedir a primeira nota
+
+    escreval("Bem-Vindo(a) =) ");
+    escreval("Insira a Primeira Nota");
+
+    //Ler a primeira nota
+
+    leia(nota1);
+    se (nota1 > 10)entao
+        escreval("O Valor Precisa ser Menor que 10 Para a Execucação do Programa, Por Favor, Tente Novamente :)");
+        senao
+
+        //Pedir ao Usuário a Segunda Nota
+
+        escreval("Insira a Segunda Nota");
+
+        //Ler a Segunda Nota
+
+        leia(nota2);
+            se (nota2 > 10)entao
+            escreval("O Valor Precisa Ser Menor que 10 Para a Execucação do Programa, Por Favor, Tente Novamente :)");
+            senao
+
+            //Definir as fórmulas
+
+            nota1peso = nota1 * 0.35;
+            nota2peso = nota2 * 0.75;
+            notafinal = nota1peso + nota2peso;
+
+            //Calcular a média e mostrar ao usuário
+
+            escreval("Sua Nota Final é: ",notafinal);
+                se (notafinal >= 7)entao
+                escreval ("Parabéns! Você Passou!");
+                senao escreval ("Sinto Muito, Você Ficou Abaixo da Média :(");
+                fimSe
+
+                escreval("Obrigado pelo Suporte :D");
+
+            fimSe
+
+    fimSe
+
+
+fimPrincipal

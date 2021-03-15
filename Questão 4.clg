@@ -1,0 +1,36 @@
+algoritmo quocienteResto;
+// Síntese
+//  Objetivo:  Calcular o quociente e resto 
+//  Entrada : dividendo e divisor
+//  Saída   : quocinte e resto
+
+principal
+	// Declarações
+
+    inteiro dividendo, divisor , resultado, resto;
+
+    // Instruções
+
+    //Pedir ao Usuário o primeiro valor e ler
+
+    escreval("Bem-Vindo(a)! Esse progrma ira de auxiliar a calcular o quociente e o resto");
+    escreva("Insira o Dividendo: ");
+    leia(dividendo);
+
+    //Pedir ao Usuário o segundo valor e ler
+
+    escreva("Insira o Divisor: ");
+    leia(divisor);
+
+    //Definir as fórmula do quoeficiente e do resto e calcular
+
+    resultado = dividendo \ divisor;
+    resto = dividendo mod divisor;
+
+    //Mostra na tela para o Usuário os resultados e mensagem de agradecimento
+
+    escreval("O Quociente da Divisão de ", dividendo," por ", divisor, " é: ", resultado);
+    escreval("O Resto da Divisão de ", dividendo, " por ", divisor, " é: ", resto);
+    escreval("Obrigado por Utilizar Esse Programa :D");
+
+fimPrincipal

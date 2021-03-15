@@ -1,0 +1,50 @@
+algoritmo infoFuncionaria;
+// Síntese
+//  Objetivo: Mostra informações de um funcionario
+//  Entrada : Nomes, sexo, salario por hora
+//  Saída   : 
+
+
+principal
+	// Declarações
+
+	texto nome;
+	inteiro matricula, cargaHoraria;
+	real salarioHora, salarioSemana, salarioMes, salarioAno;
+	caracter sexo;
+
+	// Instruções
+
+	escreva("Informe seu nome: ");
+	leia(nome);
+	escreval("Bem vindo ", nome, " =)");
+
+	escreva("Informe seu sexo: ");
+	leiaCaracter(sexo);
+	
+	escreva("Informe o número de sua matricula: ");
+	leia(matricula);
+	
+	escreva("Informe sua Carga Horaria semanal: ");
+	leia(cargaHoraria);
+	
+	escreva("Informe seu salario por hora: ");
+	leia(salarioHora);
+	
+	salarioSemana = salarioHora * cargaHoraria;
+	salarioMes = salarioSemana * 4;
+	salarioAno = salarioMes * 12;
+	
+	escreval("Informação do funcionario: ");
+	escreval("Nome: ", nome);
+	escreval("Sexo: ", sexo);
+	escreval("Matricula: ", matricula);
+	escreval("Carga Horaria semanal: ", cargaHoraria);
+	escreval("Salario por hora: ", salarioHora);
+	escreval("Salario Semanal: ", salarioSemana);
+	escreval("Salario Mensal: ", salarioMes);
+	escreval("Salario Anual: ", salarioAno);
+	
+	
+
+fimPrincipal
