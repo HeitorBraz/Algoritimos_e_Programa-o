@@ -1,0 +1,35 @@
+algoritmo relogioConvertedor;
+// Síntese
+//  Objetivo:  Coverter horas em minutos
+//  Entrada : horas em numeros inteiro
+//  Saída   : minutos e segundos inteiros
+
+
+principal
+	// Declarações
+	
+	inteiro horas, minutos, segundos;
+	
+	// Instruções
+	
+	//Mensagem de boas vindas
+	
+	escreval("Bem vindo ao 'Conversor de horas'");
+	
+	// Perguntar o numero de horas pra o usuario - ENTRADA
+	
+	escreval("Digite o número de horas inteiras: ");
+	leia(horas);
+	
+	// Fazer a conversão de horas para minutos e segundos 
+	
+	minutos = horas * 60;
+	segundos = minutos * 60;
+	
+	// Mostra o resultado da conversão - SAÍDA
+	
+	escreval("minutos: ", minutos);
+	escreval("segundos: ", segundos);
+	escreval("Obrigado por usar esse programa");
+	
+fimPrincipal

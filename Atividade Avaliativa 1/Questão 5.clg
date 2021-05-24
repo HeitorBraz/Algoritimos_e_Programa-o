@@ -1,0 +1,35 @@
+algoritmo quantidadeDeRolos;
+// Síntese
+//  Objetivo:  Calcular o quantidade de rolos e metros avulsos
+//  Entrada : Números de metros
+//  Saída   : Números de rolos
+
+
+principal
+	// Declarações
+
+	inteiro metros, rolos, metrosA;
+
+	// Instruções
+
+	//Mensagem de boas vindas ao usuario
+	
+	escreval("Bem vindo, Esse programa ira te auxiliar a calcular o numero de rolos ");
+
+	//Solicitação o números de metros
+	
+	escreva("Insira o números de metros: ");
+	leia(metros);
+
+	//Resolução da equação
+	
+	rolos = metros \ 50;
+	metrosA = metros mod 50;
+
+	//Mostra para o usuario o resultado
+	
+	escreval("A quantidade de rolos  é: ", rolos);
+	escreval("A quantidade de metros avulsos é: ", metrosA);
+	escreval("Obrigado por utilizar esse programa =)");
+
+fimPrincipal

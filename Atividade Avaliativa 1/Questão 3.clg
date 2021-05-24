@@ -1,0 +1,38 @@
+algoritmo mediaAritmedica;
+// Síntese
+//  Objetivo:  calcular a média de 3 valores
+//  Entrada : 
+//  Saída   :
+
+
+principal
+	// Declarações
+	
+	real valor1, valor2, valor3, soma, media;
+	
+	// Instruções
+	
+	//Menssagem de boas vindas, solicitar 3 valores e ler cada volor individualmente
+	
+	escreval("Seja bem vindo ao 'Calcule a sua media'");
+	escreval("Insira 3 valores");
+	escreval("Insira o valor 1 de 3");
+	leia(valor1);
+	escreval("Insira o valor 2 de 3");
+	leia(valor2);
+	escreval("Insira o valor 3 de 3");
+	leia(valor3);
+	
+	//Soma dos 3 valores
+	
+	soma = valor1 + valor2 + valor3;
+	
+	//Divisão dos valores por 3
+
+	media = soma / 3;
+	
+	//Mostra o resultado para o usuario
+	
+	escreval("Média corresponde ao valor de: ", media);
+	escreval("Obrigador por utlizar o 'Calcule a sua media'");
+fimPrincipal

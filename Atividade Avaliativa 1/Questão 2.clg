@@ -1,0 +1,30 @@
+algoritmo areaCirculo;
+// Síntese
+//  Objetivo:  Calcular área de uma ciruferecia com basa no raio informado pelo usuario
+//  Entrada : raio
+//  Saída   : área
+
+
+principal
+	// Declarações
+	
+	real raio, area;
+	
+	// Instruções
+	
+	// Pedir que o usuario informe o valor do raio - ENTRADA
+	
+	escreval("Informe o raio da circuferencia que deseja calcular a área: ");
+	
+	// Ler o valor do raio informado pelo usuario
+	
+	leia(raio);
+	
+	// Calcular a área do circulo
+	
+	area = 3.14 * raio * raio;
+	
+	// Informa o valor da área ao usuario - SAÍDA
+	
+	escreval("Valor da área da circuferencia = ", area);	
+fimPrincipal
